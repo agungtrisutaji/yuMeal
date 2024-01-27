@@ -1,0 +1,42 @@
+.searchBar {
+  top: 10px;
+  input {
+    background-color: transparent !important;
+    border-bottom: 1px solid #212529;
+    font-weight: bold;
+  }
+
+  input:focus {
+    outline: 0;
+    border-bottom: 2px solid #212529;
+  }
+
+  input:focus::placeholder {
+    font-weight: bold;
+  }
+
+  input::placeholder {
+    font-weight: normal;
+  }
+
+  button {
+    color: white;
+    background-color: #52575c;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .searchContainer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    .searchBar {
+      margin-bottom: 0px;
+    }
+
+    .searchBar > input {
+      margin-bottom: 0px;
+    }
+  }
+}

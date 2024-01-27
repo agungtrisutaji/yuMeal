@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>yuMeal</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-primary bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2 ms-5 text-light" href="#"
+            ><strong>yuMeal</strong></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <h1>Welcome To <strong>yuMeal</strong></h1>
+        <p>"Discover culinary delights with every food search"</p>
+        <p>
+          "Embark on a culinary adventure with <strong>yuMeal</strong>, the best
+          place to find delicious food recommendations"
+        </p>
+        <p>
+          "Enjoy every bite with food recommendations from
+          <strong>yuMeal</strong>. Find delightful dishes that match your
+          taste!"
+        </p>
+        <p>
+          &#127828; &#127790; &#127791; &#127829; &#127830; &#127831; &#127835;
+          &#127843; &#127848; &#127849;
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="container searchContainer d-flex justify-content-center">
+          <div
+            class="searchBar bg-light w-75 rounded shadow-lg d-flex align-items-center justify-content-center input-group mb-5 mt-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search your favourite meal"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2" />
+            <button
+              class="btn btn-outline-dark"
+              type="button"
+              id="button-addon2">
+              Search
+            </button>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <food-list></food-list>
+        </div>
+
+        <hr />
+
+        <div class="d-flex justify-content-center">
+          <food-random></food-random>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
